@@ -264,9 +264,10 @@ ServiceFabricBackup/
 *.rptproj.bak
 
 # SQL Server files
-*.mdf
-*.ldf
-*.ndf
+# Commented out to allow database files to be committed for local development collaboration
+#*.mdf
+#*.ldf
+#*.ndf
 
 # Business Intelligence projects
 *.rdl.data
@@ -471,9 +472,10 @@ umbraco-package-schema.json
 /umbraco/Data/TEMP/
 
 # SQLite database files
-/umbraco/Data/*.sqlite.db
-/umbraco/Data/*.sqlite.db-shm
-/umbraco/Data/*.sqlite.db-wal
+# Commented out to allow database files to be committed for local development collaboration
+#/umbraco/Data/*.sqlite.db
+#/umbraco/Data/*.sqlite.db-shm
+#/umbraco/Data/*.sqlite.db-wal
 
 # Log files
 /umbraco/Logs/
