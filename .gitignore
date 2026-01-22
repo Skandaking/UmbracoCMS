@@ -472,10 +472,10 @@ umbraco-package-schema.json
 /umbraco/Data/TEMP/
 
 # SQLite database files
-# Commented out to allow database files to be committed for local development collaboration
-#/umbraco/Data/*.sqlite.db
-#/umbraco/Data/*.sqlite.db-shm
-#/umbraco/Data/*.sqlite.db-wal
+# Allow main database file to be committed for local development collaboration
+# But ignore temporary WAL and SHM files (they change constantly)
+/umbraco/Data/*.sqlite.db-shm
+/umbraco/Data/*.sqlite.db-wal
 
 # Log files
 /umbraco/Logs/
